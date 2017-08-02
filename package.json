@@ -4,7 +4,7 @@
   "description": "S3 Compatible Cloud Storage client",
   "main": "./dist/main/minio.js",
   "scripts": {
-    "build": "gulp compile",
+    "prepare": "gulp compile",
     "compile": "gulp compile",
     "test": "gulp test",
     "prepublish": "gulp test",
@@ -43,9 +43,7 @@
     "through2": "^0.6.5",
     "uuid": "^3.1.0",
     "xml": "^1.0.0",
-    "xml2js": "^0.4.15"
-  },
-  "devDependencies": {
+    "xml2js": "^0.4.15",
     "browserify": "^12.0.1",
     "chai": "^3.4.0",
     "eslint": "^4.1.1",
